@@ -81,9 +81,11 @@ p{
 }
 .quality .column{
     text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    padding: 20px 20px;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.1);
     cursor: pointer;
+    margin: 10px;
+    border: solid black;
     transition: transform 0.5s;
 }
 .quality .column img{
@@ -101,8 +103,46 @@ p{
 }
 .column h3{
     font-weight: 600;
-    color: grey;
+    color: black;
     font-size: 15px;
 }
+.menu {
+    display: inline-flex;    
+}
+.col1{
+    margin: 50px;
+    padding: 10px 10px;
+    height: 50%;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.1);
 
+}
+.menu2{
+    display: inline-flex;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #F6B400;
+    
+}
+em{
+    color: black;
+}
+col1{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col1 img{
+    width: 150px;
+    height: 100px;
+}
+.col1 p{
+    font-size: 15px;
+}
 
