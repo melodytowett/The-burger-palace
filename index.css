@@ -4,11 +4,15 @@ h1{padding-top: 50px;
     text-align: center;
 
 }
+.header{
+    background-color:#fff;
+   
+}
+
 .navbar{
     display: flex;
     align-items: center;
-    padding: 30px;
-
+    padding-top: 30px;
 }
 nav{
     flex: 1;
@@ -33,31 +37,17 @@ a{
 p{
     color: grey;
 }
-.container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.colunm{
-    flex-basis: 50%;
-    min-width: 300px;
-
-}
 .colnm img{
-    max-width: 50%;
-    padding: 50px 0;
+    width: 300px;
+    height: 350px;
+    float: right;
+
 }
 .colnm h1{
     font-size: 50px;
     line-height: 40px;
     margin: 10px 0;
+    float: left;
 }
 .btn{
     display: inline-block;
@@ -67,17 +57,12 @@ p{
     border-radius: 30px;
     transition: 0.5s;
 }
-.header{
-  background: radial-gradient(#fff, #F6B400);
-}
-.row{
-    margin-top: 70px;
-    width: 50%;
-}
-/*------quality------*/
+
+/*----------quality------*/
 .quality{
-    padding-top: 50px;
+    padding: 50px;
     display: inline-flex;
+    background-color:#E1EBE6 ;
 }
 .quality .column{
     text-align: center;
@@ -120,6 +105,7 @@ p{
     display: inline-flex;
 }
 .title{
+    text-decoration: #F6B400;
     text-align: center;
     padding: 20px;
     margin: 0 auto 80px;
@@ -145,4 +131,68 @@ col1{
 .col1 p{
     font-size: 15px;
 }
+/*double-----------*/
+.double{
+    background: radial-gradient(#fff,#E1EBE6);
+    padding: 30px 0;
+    margin: 50px;
+    height: 300px;
+}
+.double img{
+    height: 150px;
+    width: 200px;   
+}
+.double em{
+    color: #F6B400;
+}
+/*----------discover------*/
+.disc{
+   background: radial-gradient(#fff,#F6B400);
+
+   margin: 30px;
+   height: 400px;
+}
+.disc img{
+    float: right;
+    height: 300px;
+    width: 350px;
+    padding: 50px;
+}
+.disc h2{
+    padding: 100px;
+}
+/*-----------footer-----*/
+.footer{
+    background-color:  #E1EBE6;
+    font-size: 15px;
+    padding: 60px 0 20px;
+}
+.footer h3{
+    color: black;
+    margin-bottom: 20px;
+}
+.footer-col1, .footer-col2, .footer-col3{
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-col1{
+    flex-basis: 30%;
+    padding-left: 30px;
+
+}
+.footer-col1 em{
+    color: #F6B400;
+}
+.footer-col1 img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.footer-col2{
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer-col2 ul{
+    list-style-type: none;
+}
+
 
