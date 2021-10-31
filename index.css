@@ -284,6 +284,13 @@ footer .col-1, .col-2, .col-3{
     position: relative;
     width: 50%;
     text-align: left;
-    display: inline;
+   display: inline-flex;
     margin: 10px 5px;
+}
+.columns img{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+
 }
