@@ -68,6 +68,12 @@ p{
 .header{
     background-color: #fff;
 }
+.container{
+    background: linear-gradient(to right,#E1EBE6 50%, #F6B400 50%);
+    display: flex;
+    justify-content: center;
+    
+}
 .header .row{
    
     margin-top: 70px;
