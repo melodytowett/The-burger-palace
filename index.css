@@ -275,6 +275,10 @@ footer .col-3{
     margin: 50px;
     margin-left: 150px;
 }
+footer .col-1, .col-2, .col-3{
+    min-width: 200px;
+    margin-bottom: 20px;
+}
 .columns{
     float: left;
     position: relative;
