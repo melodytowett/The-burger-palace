@@ -3,7 +3,8 @@
 ## Description
 {Burger palace is a webpage specified for burgers. It has the delivery options ordering options, it has quality of different burgers has price tags and also differebt communication medias. }
 ## Setup/Installation Requirements
-* To access this web app use your browser.
+* To access this web app use your browser via the link below
+* https://melodytowett.github.io/The-burger-palace
 * Also used visual studio fto run your code
 ## Known Bugs
 Other food stuffs were not included in this webpage. Some people might be in need of more than just a burger and it will be unfortunate because we deal with just burgers.
